@@ -1,0 +1,50 @@
+
+body{
+  margin:0;  
+  padding:0;
+
+}
+.outer{
+   text-align: center;
+   padding:20px;
+	background-color:teal
+}
+.page{
+   width:800px;
+   height:auto;
+   display: inline-block;
+   text-align:left;
+   padding:10px;
+   background-color:black;
+}
+
+.poemtitle{
+		color:aliceblue;
+		font-size:16 px;
+		font-weight:bold;
+		font-family: Raleway;
+	}
+a{
+  color:black;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:15px;
+}
+
+a:hover {
+  color:lightsteelblue;  
+ }
+  a:active {
+  color:darkgray;
+}
+.nav{
+  font-family: sans-serif;
+   margin-left:10px;
+   margin-top:10px;
+   text-align: right;
+}
+.divimg{
+	max-width: 800px; max-height: auto;
+	align: center;
+}
