@@ -1,0 +1,85 @@
+
+body{
+  margin:0;  
+  padding:0;
+	background-color: white;
+	font-family: Montserrat; alt:sans-serif;
+
+}
+.outer{
+   text-align: center;
+	background-color: #F3F9FC;
+}
+.page{
+   width:100vw;
+   height:auto;
+   display: inline-block;
+   text-align:left;
+	padding-top: 20px;
+   background-color:white;
+}
+
+.logo{
+	max-width: 200px;
+	align-content: flex-start;
+}
+
+.logoimg{
+	width: 90%;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+.topofpage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 100px;
+	align-items: center;
+	
+}
+.content{
+	background-color: #0A3360;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.contenttext{
+	font-color: white;
+}
+
+a{
+  color:black;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:15px;
+}
+
+a:hover {
+  color:#91B0BF;  
+ }
+
+a:active {
+  color:#FFA452;
+
+}
+.navbar{
+	flex-grow:1;
+	font-family: Montserrat; alt: sans-serif;
+	font-style:normal;
+   margin-top:10px;
+   text-align: center;
+}
+.heroimg{
+	width: 60vw;
+	align-content:center;
+}
+.searchimg{
+	width:20%;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.search{
+	max-width: 200px;
+	align-content: flex-end;
+}
