@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	margin-top:0px;
+	position: relative;
+	background-color: white;
+	max-width: 1200px;
+  	width:800px;
+  	height:100%;
+	display: inline-block;
+	opacity: .6;
+	
+}
+
+.navbar{
+	position: sticky;
+	position: -webkit-sticky; /* Safari */
+	top: 0;
+	background-color: #F3F9FC;
+	max-height: 100px;
+	width: 100%;
+	opacity: .7;
+	z-index: 100;
+}
+
+.text{
+	font-family:Montserrat; alt: sans-serif;
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+	margin-top: 200px;
+	text-align: center;
+	font-color: #767676;
+	
+}
+
+.logoimg{
+	max-width: 200px;
+}
+
+.logo{
+	max-height: 100px;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+
+.tile1{
+	background-image: url("img/beach.jpeg");
+}
+.tile2{
+	background-image: url("img/motorcycle.jpeg");
+}
+.tile3{
+	background-image: url("img/groceries.jpeg");
+}
+.tile4{
+	background-image: url("img/lake.jpeg");
+}
+.tile5{
+	background-image: url("img/carwash.jpeg");
+}
+.tile6{
+	background-image: url("img/couch.jpeg");
+}
