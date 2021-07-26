@@ -1,0 +1,116 @@
+
+body{
+  margin:0;  
+  padding:0;
+	background-color: white;
+	font-family: Montserrat; alt:sans-serif;
+
+}
+.outer{
+   text-align: center;
+	background-color: white;
+}
+
+.page{
+   position:relative;
+	width:100vw;
+	height:auto;
+   display: inline-block;
+   background-color:#0A3360;
+}
+
+.logo{
+	max-width: 250px;
+	align-content: flex-start;
+}
+
+.logoimg{
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+.topofpage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 100px;
+	align-items: center;
+	background-color:white;
+	
+}
+
+a{
+  color:#767676;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:15px;
+}
+
+a:hover {
+  color:#FFA452;  
+ }
+
+.navbar{
+	flex-grow:1;
+	font-family: Montserrat; alt: sans-serif;
+	font-style:normal;
+   margin-top:10px;
+   text-align: center;
+}
+
+.menu{
+	display:none;
+}
+
+#menuoverlay{
+	position:absolute;
+	top: 0px;
+	background-color:#7EE0CA;
+	width:100%;
+	height:98vh;
+	text-align:center;
+	display:none;
+}
+
+#close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display:none;
+	}
+
+.heroimg{
+	width: 60vw;
+}
+
+.searchimg{
+	width:30%;
+	padding: 15px;
+}
+.search{
+	max-width: 120px;
+	align-content: flex-end;
+}
+
+@media screen and (max-width:850px){
+
+	.menu{
+		display: inline-block;
+	}
+	
+	.menu img{
+		width: 50px;
+		padding: 15px;
+		cursor: pointer;
+	}
+	.navbar{
+		display: none;
+	}
+	
+	.logo{
+		display: none;
+	}
+
+}
