@@ -1,0 +1,61 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	background-color:#F3F9FC; 
+	max-width:1200px;
+	align-items: center;
+}
+
+/* HERO IMAGE */
+
+.hero_content{
+	font-size:18px;
+	text-align: center;
+	background-color:#0A3360;
+}
+
+.hero_content img{
+	width:50%;
+}
+
+.hero_head{
+	margin-top:-50px;
+	font-color: #FFA452;
+	font-size:32px;
+	font-weight:600;
+	font-style:oblique;
+	align-text:center;
+}
+
+	
+.subhead{
+		font-color:#FFA452;
+		font-size: 18px;
+		font-weight: 400;
+		text-align:center;
+	}
+
+
+/* ADVENTURE GRAPHICS COMPONENT */
+.adven_graphic{
+  height:100%;
+  overflow: auto;
+  margin-top:10px;
+	margin-bottom:10px;
+  text-align: center;
+	font-size: 14px;
+	display:inline-block;
+	position:relative;
+
+}
+
+.adven_graphic .section{
+   color: #FFA452;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.adven_graphic img{
+	float: center;
+}
