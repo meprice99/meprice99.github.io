@@ -1,0 +1,165 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	background-color: #FFF; 
+	max-width:1200px;
+	align-items: center;
+}
+
+
+.outer{
+	text-align: center;
+	background-color:#F3F9FC;
+}
+
+.page{
+	max-width:1000px;
+	width:100%;
+	display:inline-block;
+	background-color:#F3F9FC;
+}
+
+/* TOPNAV SECTION */
+
+#menu{
+	display:none;
+}
+
+#menu img{
+	width: 50px;
+	padding: 15px;
+	cursor: pointer;
+}
+#menuoverlay{
+	position:absolute;
+	top: 0px;
+	background-color:#7EE0CA;
+	width:100%;
+	height:100vh;
+	text-align:center;
+	display:none;
+}
+
+.innermenu{
+	margin-top: 80px;
+	font-family:Montserrat, sans-serif; 
+}
+
+.innermenu div{
+	padding-bottom:80px;
+
+}
+
+.logo{
+	max-width: 250px;
+	align-content: flex-start;
+}
+
+.logoimg{
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+.topnav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 100px;
+	align-items: center;
+	background-color:white;
+}
+
+.navbar{
+	flex-grow:1;
+	font-family: Montserrat; alt: sans-serif;
+	font-style:normal;
+   	margin-top:10px;
+	margin-left:-150px;
+   	text-align: center;
+}
+
+.search{
+	align-content: flex-end;
+}
+
+.searchimg{
+	max-height: 40px;
+}
+
+a{
+  color:#767676;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:15px;
+}
+
+a:hover {
+  color:#FFA452;
+ }
+
+
+.layout{
+	width:100%;
+	height:100%;
+}
+
+/* HERO IMAGE */
+
+.hero_content{
+}
+
+.hero_content img{
+	width:100%;
+}
+
+.hero_head{
+	margin-top:-50px;
+	margin-left:20px;
+	color: #0A3360;
+	font-size:32px;
+	font-weight:600;
+	font-style:oblique;
+	text-align:left;
+}
+
+	
+.subhead{
+		color:#F3F9FC;
+		background-color: #0A3360;
+		font-size: 15px;
+		font-weight: 400;
+		padding:20px;
+
+	}
+
+
+/* ADVENTURE GRAPHICS COMPONENT */
+.adven_graphic{
+  height:100%;
+  overflow: auto;
+  text-align: center;
+	font-size: 14px;
+	display:inline-block;
+	padding-top:20px;
+
+}
+
+.adven_graphic .section{
+   color: #FFA452;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.adven_graphic img{
+	float: center;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+	background-color:#F3F9FC;
+}
